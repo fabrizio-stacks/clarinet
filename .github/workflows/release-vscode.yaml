@@ -55,5 +55,5 @@ jobs:
       # - name: Publish to Open VSX
       #   run: npx ovsx publish --packagePath clarity.vsix --pat ${{ secrets.OVSX_TOKEN }}
 
-      - name: Publish to Open VSX
-        run: npx ovsx publish --packagePath clarity.vsix --pat ${{ secrets.OVSX_TOKEN }}
+      #- name: Publish to Open VSX
+      #  run: npx ovsx publish --packagePath clarity.vsix --pat ${{ secrets.OVSX_TOKEN }}
